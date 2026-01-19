@@ -1,0 +1,7 @@
+﻿services:
+  chill-todo-api:
+    image: chill-todo-api
+    build:
+      context: .
+      dockerfile: Chill-Todo-API/Dockerfile
+
